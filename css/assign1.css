@@ -1,0 +1,88 @@
+body{
+    font-family: 'Atomic Age';font-size: 22px;
+
+}
+.a1 a{
+	text-decoration: none;
+	  line-height: 75px;
+	  float: right;
+	padding: 0px 16px;
+	height: 100px;
+	background-color: silver;
+
+}
+
+.a1{
+	 	position: fixed;
+	 	z-index: 1;
+	 	width:100%;
+	 	background-color: silver;
+
+}
+
+.a2{
+	padding: 30px 10px;
+	line-height: 50px;
+}
+.a3{
+	display: flex;
+  flex-wrap: wrap;
+}
+
+.a3>div{
+  width: 25%;
+  margin: 10px;
+  text-align: center;
+  background-color: pink;
+
+}
+.a4{
+	text-align: center;
+	padding: 50px;
+	height: 100px;
+	background-color: silver;
+
+}
+.wrapper{
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	grid-gap: 1em;
+	height: 200px;
+	width: 100%;
+	padding: 50px;
+	background-color: grey;
+}
+ .w1 ,.w2 ,.w3{
+ 	display: grid;
+	grid-template-columns: 10% 90%;
+ }
+ .mac{
+ 	padding: 100px;
+ 	width: 100%;
+ }
+ .wrapper2{
+ 	padding: 40px;
+ 	display:grid;
+ 	grid-template-columns: 40% 60%;
+ 	background-color: silver;
+ }
+ .wrapper3{
+ 	padding: 40px;
+ 	display:grid;
+ 	grid-template-columns: 60% 40%;
+ }
+
+.wrapper4{
+	display: grid;
+	grid-template-columns: 40% 60%;
+	background-color: grey;
+}
+.wrapper4 .w40{
+	display: grid;
+	grid-template-rows: 30% 30% 30%;
+}
+
+ footer{
+ 	display: block;
+ 	background-color: red;
+ }
